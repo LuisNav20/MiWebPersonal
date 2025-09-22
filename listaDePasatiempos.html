@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+        <meta charset="UTF-8">
+        <style>
+            body{
+                background-color: #f4f4f4;
+                font-family: Arial, sans-serif;
+                margin: 0; /*Margen por fuera de nuestro texto*/
+                padding: 0; /*Margen por dentro de nuestro texto*/
+                line-height: 1.6;
+            }
+            h1,h2,h3,h4{
+                color: red;
+            }
+            a{
+                text-decoration: none;
+                color: blue;
+            }
+            a:hover{
+                color: darkblue;
+            }
+            article{
+                background-color: white;
+                padding: 15px;
+                margin: 20px;
+                border-radius: 15px;
+                box-shadow: 0 0 5px rgba(0,0,0,0.1);
+            }
+            ul{
+                list-style: circle;
+            }
+            ul ul{
+                list-style: square;
+            }
+            a h1{
+                color: lightcoral;
+                text-decoration: none;
+                font-weight: bold;
+                text-align: center;
+                text-shadow: #0f09094b;
+            }
+            a h1:hover{
+                color: darkred;
+            }
+        </style>
+    </head>
+    <body>
+
+        <a href="index.html"><h1>
+            Regresar a la página principal
+        </h1></a>
+        <article id="pasatiempos">
+             <h1>Mis Pasatiempos</h1>
+             <ul>
+                <li>Escuchar música</li>
+                   <ul type="square">
+                    <h3>Mis artistas favoritos son:</h3>
+                    <li>Lana del Rey</li>
+                    <li>Adelle</li>
+                    <li>Mon Laferte</li>
+                    <li>Conan Gray</li>
+                    <li>Sabrina Carpenter</li>
+                   </ul>
+                <li>Ver películas</li>
+                <ul type="square">
+                    <h3>Mis películas favoritas son:</h3>
+                    <li>Demon Hunter</li>
+                    <li>Como si fuera la primera vez</li>
+                    <li>Luna de miel en familia</li>
+                    <li>Anabelle  la creación</li>
+                    <li>El conjuro</li>
+                </ul>
+                <li>Dibujar</li>
+                <li>Leer</li>
+                <li>Tejer</li>
+                <li>Cuidar mis plantas</li>
+             </ul>
+        </article>
+    </body>
+</html>
